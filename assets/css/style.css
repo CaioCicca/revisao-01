@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -17,6 +20,20 @@ body{
 }
 
 img{
-    width: 50rem;
+    width: 31rem;
+}
 
+#form_imc{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    color: #f8f8f8;
+    background-color: #262626;
+    border-radius: 8px;
+}
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
 }
