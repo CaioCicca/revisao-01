@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/js/script.js"></script>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
 </head>
@@ -18,17 +18,21 @@
         <div id="form_imc">
             <div id="calculator">
                 <h1 id="title">Calculadora - IMC</h1>
-                <label>Peso em Kg</label>
-                <div>
-                    <i class="fa-solid fa-weight-hanging"></i>
-                    <input type="number">
-                    <span>Kg</span>
+                <div class="input-box">
+                    <label for="weight">Peso em kg</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-weight-hanging icon"></i>
+                        <input type="number" id="weight" name="weight" required>
+                        <span class="unit">kg</span>
+                    </div>
                 </div>
-                <label>Peso em Kg</label>
-                <div>
-                    <i class="fa-solid fa-ruler"></i>
-                    <input type="number">
-                    <span>M</span>
+                <div class="input-box">
+                    <label for="height">Peso em Kg</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-ruler icon"></i>
+                        <input type="number" id="height" name="height" required>
+                        <span class="unit">m</span>
+                    </div>
                 </div>
             </div>
         </div>
